@@ -15,3 +15,17 @@ This demo uses:
 - Solidity
 - Web3JS
 - Faucet
+
+### How to Run this project :
+
+The different dependencies essential for this project are - 
+#### Truffle
+#### Ganache
+#### React
+#### Node.js
+#### Git
+#### Metamask
+
+Download or Git-clone this project into your local pc 
+After opening of the file run this project in your text editor and follow up to the terminal where you need to run the command :
+```npm run start```
