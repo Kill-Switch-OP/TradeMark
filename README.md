@@ -1,6 +1,11 @@
 # How to Build a Better NFT Marketplace with React, Solidity, and CometChat
 
-This example shows How to Build a Better NFT Marketplace with the following Tech Stack:
+Read the full tutorial here: [**>> How to Build a Better NFT Marketplace with React, Solidity, and CometChat**](https://daltonic.github.io)
+
+This example shows How to Build a Better NFT Marketplace with React, Solidity, and CometChat:
+
+![TimelessNFT Project](./screenshots/0.gif)
+<center><figcaption>TimelessNFT Project</figcaption></center>
 
 ## Technology
 
@@ -13,23 +18,47 @@ This demo uses:
 - Tailwind CSS
 - Ganache-CLI
 - Solidity
-- Web3JS
+- Web3js
 - Faucet
 
-### How to Run this project :
+## Running the demo
 
-The different dependencies essential for this project are - 
-- Truffle
-- Ganache
-- React
-- Node.js
-- Git
-- Metamask
+To run the demo follow these steps:
 
-Download or Git-clone this project into your local pc 
-After opening of the file run this project in your text editor and follow up to the terminal where you need to run the command :
-```npm run start```
+1. Clone the project with the code below.
+    ```sh
 
-### How this project is related to WEB3?
+    # Make sure you have the above prerequisites installed already!
+    git clone https://github.com/Daltonic/timelessNFT PROVIDER_NAME
+    cd PROVIDER_NAME # Navigate to the new folder.
+    yarn install # Installs all the dependencies.
+    ```
+2. Create an Infuria project, copy and paste your key in the spaces below.
+3. Update the `.env` file with the following details.
+    ```sh
+    ENDPOINT_URL=<PROVIDER_URL>
+    SECRET_KEY=<SECRET_PHRASE>
+    DEPLOYER_KEY=<YOUR_PRIVATE_KEY>
+    ```
+2. Create a CometChat project, copy and paste your key in the spaces below.
+3. Run the app using `yarn start`
+<br/>
 
-Our project implements the concepts of Non-Fungible Tokens but with a twist of personal blockchain. Our projects include minting and using inter planetary file system a.k.a IPFS for in-game purchases. The currency used is Ether which is based on the blockchain Ethereum. Every action including log-in to purchase history involving the steps of skin minting and payment gateway is all based on decentralised personal network.
+If your confuse about the installation, check out this **TUTORIAL** to see how you should run it.
+
+Questions about running the demo? [Open an issue](https://github.com/Daltonic/timelessNFT/issues). We're here to help ✌️
+Access the [Teaching Guide Here](https://docs.google.com/document/d/13bBRyAO0bEwRt776FXbYgWm6-OBFiUu6zTeOgRbXXyI/edit?usp=sharing).
+
+## Useful links
+
+- 🏠 [Website](https://daltonic.github.io/)
+- ⚽ [Metamask](https://metamask.io/)
+- 🚀 [Remix Editor](https://remix.ethereum.org/)
+- 💡 [Truffle](https://trufflesuite.com/)
+- 📈 [Infuria](https://infura.io/)
+- 🔥 [ReactJs](https://reactjs.org/)
+- 🐻 [Solidity](https://soliditylang.org/)
+- 👀 [Web3Js](https://docs.ethers.io/v5/)
+- 🎅 [Faucet](https://faucets.chain.link/rinkeby)
+- 🤖 [Ganache](https://trufflesuite.com/ganache/index.html)
+- ✨ [Live Demo](https://timelessnft-33dea.web.app/)
