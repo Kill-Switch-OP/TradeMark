@@ -1,4 +1,4 @@
-# How to Build a Better NFT Marketplace with React, Solidity, and CometChat
+# How to Build a Better NFT Marketplace centric of In-Game Purchases
 
 
 
